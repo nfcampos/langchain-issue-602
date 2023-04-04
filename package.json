@@ -1,0 +1,21 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "NodeJS sandbox.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "langchain": "^0.0.47"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "4.8.2"
+  }
+}
